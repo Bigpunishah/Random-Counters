@@ -1,11 +1,50 @@
+/* Color palette like: https://colorhunt.co/palette/f1f0e941644a0d4715e9762b */
+/* https://getbootstrap.com/docs/5.3/components/card/ */
+
 body {
-    display: flex;
-    justify-content: center;  /* Centers horizontally */
+    background-color: #F1F0E9;
+    /* display: flex; */
+    /* justify-content: center;  Centers horizontally */
     /* align-items: center;      Centers vertically */
-    height: 100vh;            /* Full height of the viewport */
-    margin: 0;                /* Removes default margin */
-    color: aqua;            /* Color */
+    /* height: 100vh;            Full height of the viewport */
+    /* margin: 0;                Removes default margin */
+    
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    color: #E9762B;            /* Color */
     font-family: "Lato", serif; /* Google font */
     font-weight: 900;
     font-style: normal;
+    padding-bottom: 20px;
+
+  }
+
+  .counter-box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;      
+    padding-bottom: 15px;
+  }
+
+  .counter-text{
+    display: flex;
+    justify-content: center;
+  }
+
+  .google-font-700-i{
+    font-family: "Lato", serif; /* Google font */
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .success-alert{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
   }
